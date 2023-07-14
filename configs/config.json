@@ -1,0 +1,14 @@
+{
+    "app" : {
+        "port" : "",
+        "secret" : ""
+    },
+
+    "database" : {
+        "username" : "",
+        "password" : "",
+        "name" : "",
+        "dialect" : "",
+        "host" : ""
+    }
+}
