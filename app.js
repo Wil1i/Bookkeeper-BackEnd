@@ -8,6 +8,8 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
+require("./utils/defaultChecker")()
+
 const Routes = require("./routes/index")
 app.use("/", Routes)
 
