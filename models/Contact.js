@@ -19,6 +19,10 @@ const Contact = db.define("contacts", {
 
     description: {
         type: DataTypes.TEXT
+    },
+
+    userId: {
+        type: DataTypes.INTEGER
     }
 })
 
